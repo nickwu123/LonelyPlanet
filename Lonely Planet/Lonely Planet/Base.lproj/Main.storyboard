@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lonely_Planet" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Bhq-Mp-B36">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hhZ-46-tWK" userLabel="First View">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="146.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WHY VISIT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eHV-Hi-iF5">
+                                                <rect key="frame" x="20" y="20" width="84" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="PBH-4E-bbA"/>
+                                                    <constraint firstAttribute="width" constant="84" id="PtA-Cp-LjT"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qlq-sY-6uh">
+                                                <rect key="frame" x="20" y="41" width="374" height="105"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <string key="text">Barceionai is steeped in culture and the arts. History buffs, art lovers, music aficionados and foodies aick will all find something intrguing in this beautiful city.</string>
+                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="eHV-Hi-iF5" firstAttribute="leading" secondItem="hhZ-46-tWK" secondAttribute="leading" constant="20" id="GyC-0u-9aW"/>
+                                            <constraint firstItem="eHV-Hi-iF5" firstAttribute="top" secondItem="hhZ-46-tWK" secondAttribute="top" constant="20" id="eBK-TU-AIa"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6iR-7A-Y4R" userLabel="Second View">
+                                        <rect key="frame" x="0.0" y="146.5" width="414" height="146"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WHAT TO SEE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5QW-pK-Wxa">
+                                                <rect key="frame" x="20" y="20" width="110" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Be sure to visit the Museu Picasso, schedule a hike up Motjuic mountain, and explore the literaty culture of the Raval." textAlignment="natural" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2RN-xZ-y8f">
+                                                <rect key="frame" x="20" y="40" width="374" height="98"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V4T-xQ-U4z" userLabel="Third View">
+                                        <rect key="frame" x="0.0" y="292.5" width="414" height="146.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WEATHER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fzk-hp-0gW">
+                                                <rect key="frame" x="27" y="25" width="79" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P6a-wE-ji0">
+                                                <rect key="frame" x="123" y="20" width="46" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Hide"/>
+                                                <connections>
+                                                    <action selector="hideOrShowWeatherClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kyt-lS-km2"/>
+                                                </connections>
+                                            </button>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Spain enjoys a Mediteranean clinate with damp but mild winters and hot summers, bu no extreme temperature fiuctuations" textAlignment="natural" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="utX-BV-onm">
+                                                <rect key="frame" x="27" y="47" width="374" height="94"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iQu-Ad-3aq" userLabel="Forth View">
+                                        <rect key="frame" x="0.0" y="439" width="414" height="379"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="AVERAGE RATING" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="czZ-BZ-e4M">
+                                                <rect key="frame" x="20" y="23" width="138" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="uEB-rr-jq0">
+                                                <rect key="frame" x="164" y="19" width="36" height="37"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="lQ8-QZ-Z6u">
+                                                <rect key="frame" x="199" y="19" width="36" height="37"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJu-Pg-9ua">
+                                                <rect key="frame" x="282" y="124" width="100" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Wikipedia"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j93-Ep-LYG">
+                                                <rect key="frame" x="19" y="124" width="127" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Submit Rating"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hO3-Zc-fyK">
+                                                <rect key="frame" x="175" y="124" width="83" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="View Map"/>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="HP2-MJ-EhY">
+                                                <rect key="frame" x="237" y="19" width="36" height="37"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="Dal-11-nv7">
+                                                <rect key="frame" x="275" y="19" width="36" height="37"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C2G-61-qXc">
+                                                <rect key="frame" x="20" y="61" width="364" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="YOUR RATING" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="heo-TB-vfQ">
+                                                        <rect key="frame" x="0.0" y="1" width="138" height="30"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="Kmz-Bz-elT">
+                                                        <rect key="frame" x="124" y="-4" width="36" height="37"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="CH0-OK-KQf">
+                                                        <rect key="frame" x="164" y="-4" width="36" height="37"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="hHo-R8-lXL">
+                                                        <rect key="frame" x="202" y="-3" width="36" height="37"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="YL9-OD-Jx8">
+                                                        <rect key="frame" x="243" y="-3" width="36" height="37"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="yUI-Bc-2bS">
+                                                        <rect key="frame" x="283" y="-2" width="36" height="37"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="hhZ-46-tWK" firstAttribute="top" secondItem="Bhq-Mp-B36" secondAttribute="top" id="7qG-zG-jq1"/>
+                                    <constraint firstAttribute="trailing" secondItem="V4T-xQ-U4z" secondAttribute="trailing" id="Aj0-as-llj"/>
+                                    <constraint firstItem="6iR-7A-Y4R" firstAttribute="leading" secondItem="Bhq-Mp-B36" secondAttribute="leading" id="CxG-lx-IwX"/>
+                                    <constraint firstAttribute="trailing" secondItem="iQu-Ad-3aq" secondAttribute="trailing" id="L8q-OM-bX6"/>
+                                    <constraint firstItem="iQu-Ad-3aq" firstAttribute="leading" secondItem="Bhq-Mp-B36" secondAttribute="leading" id="NAp-cW-n1V"/>
+                                    <constraint firstItem="V4T-xQ-U4z" firstAttribute="leading" secondItem="Bhq-Mp-B36" secondAttribute="leading" id="QVc-fu-29H"/>
+                                    <constraint firstItem="hhZ-46-tWK" firstAttribute="leading" secondItem="Bhq-Mp-B36" secondAttribute="leading" id="jkl-tM-w0k"/>
+                                    <constraint firstAttribute="trailing" secondItem="hhZ-46-tWK" secondAttribute="trailing" id="jpB-Em-mea"/>
+                                    <constraint firstAttribute="trailing" secondItem="6iR-7A-Y4R" secondAttribute="trailing" id="p3Y-no-vJH"/>
+                                </constraints>
+                            </stackView>
+                            <view hidden="YES" alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mRQ-7h-6Q5">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Bhq-Mp-B36" secondAttribute="bottom" id="425-w3-13E"/>
+                            <constraint firstItem="Bhq-Mp-B36" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="FMk-EA-efs"/>
+                            <constraint firstItem="Bhq-Mp-B36" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="N6T-7A-rj8"/>
+                            <constraint firstItem="Bhq-Mp-B36" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Tet-yd-maz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mRQ-7h-6Q5" secondAttribute="trailing" id="WHi-d2-cPs"/>
+                            <constraint firstItem="mRQ-7h-6Q5" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="eL0-Sr-bKk"/>
+                            <constraint firstItem="Bhq-Mp-B36" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="fDP-hO-DWD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="mRQ-7h-6Q5" secondAttribute="bottom" id="g6u-mt-TXU"/>
+                            <constraint firstItem="Bhq-Mp-B36" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="k0H-fl-vSh"/>
+                            <constraint firstItem="mRQ-7h-6Q5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wkv-Dl-nWz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="forthView" destination="iQu-Ad-3aq" id="cUO-SD-ckh"/>
+                        <outlet property="maskView" destination="mRQ-7h-6Q5" id="TZn-oC-hyD"/>
+                        <outlet property="submitBtn" destination="j93-Ep-LYG" id="oh0-dZ-YP3"/>
+                        <outlet property="weatherTextView" destination="utX-BV-onm" id="WMc-zO-aPF"/>
+                        <outlet property="yourRatingFifthImageView" destination="yUI-Bc-2bS" id="hvY-2A-aUh"/>
+                        <outlet property="yourRatingFirstImageView" destination="Kmz-Bz-elT" id="Y9V-MD-J7V"/>
+                        <outlet property="yourRatingForthImageView" destination="YL9-OD-Jx8" id="BRi-cn-2qE"/>
+                        <outlet property="yourRatingSencondImageView" destination="CH0-OK-KQf" id="xDK-p4-6Lt"/>
+                        <outlet property="yourRatingThirdImageView" destination="hHo-R8-lXL" id="DR0-kq-bv9"/>
+                        <outlet property="yourRatingView" destination="C2G-61-qXc" id="peJ-2a-keZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="129.91071428571428"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="star" width="200" height="200"/>
+    </resources>
+</document>
